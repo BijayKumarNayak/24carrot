@@ -1,0 +1,190 @@
+<style>
+        h2 {
+            color: #1A4122;
+            font-family: "F37 Caslon", serif;
+            font-size: 100px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 92%;
+        }
+
+        h4 {
+            font-family: "F37 Caslon", serif;
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 120%;
+            color: #1A4122;
+        }
+
+        p {
+            letter-spacing: 0.16px;
+            color: #1A4122;
+        }
+
+        .nav-item {
+            letter-spacing: 2.1px;
+        }
+
+        .nav-item:hover .dropdown-menu {
+            display: block;
+        }
+
+        .dropdown-toggle::after {
+            display: none !important;
+        }
+
+        .twentyfour-btn {
+            background-color: #C15627;
+            color: white;
+            font-weight: 600;
+
+        }
+
+        .tanspatent-btn {
+            background-color: transparent;
+            color: #C15627;
+            border: 1px solid #C15627;
+        }
+
+        #video h1 {
+            font-size: 7rem;
+            font-family: "F37 Caslon", serif;
+            margin: -3% 0 0;
+        }
+
+        .welcome h3 {
+            color: #647B4E;
+            font-family: "Rustica", sans-serif;
+            letter-spacing: 3.6px;
+        }
+
+        .welcome h2 {
+            font-size: 6rem;
+            font-family: "F37 Caslon", serif;
+            color: #1A4122;
+            text-align: center;
+        }
+
+        .welcome p {
+            color: #1A4122;
+            text-align: center;
+        }
+
+        .carousel-item {
+            height: 600px;
+            border-top-left-radius: 50%;
+            overflow: hidden;
+        }
+
+        .wedding-img {
+            transition: transform cubic-bezier(0.47, 0.29, 0.66, 0.88) 250ms;
+            object-fit: cover;
+            border-top-left-radius: 100vw;
+            border-top-right-radius: 100vw;
+        }
+
+        .weeding-text p {
+            color: #1A4122;
+
+            font-family: "futura-pt", sans-serif;
+            letter-spacing: 0.7px;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 140%;
+            text-align: left;
+        }
+
+        #venues {
+            background-image: url(https://24carrots.com/wp-content/uploads/2023/10/unforegetable-banner.png);
+
+            background-position: center center;
+            width: 100%;
+            min-height: 600px;
+            max-height: 100%;
+        }
+
+        .half-circle {
+            position: absolute;
+            bottom: -280px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 345px 345px 0 0;
+            background-color: #fff;
+            height: 316px;
+            width: 643px;
+            z-index: 1;
+        }
+
+        .venues-text {
+            z-index: 2;
+            position: relative;
+            text-align: center;
+
+        }
+
+        .venues-text h3 {
+            font-family: "Rustica", sans-serif;
+            font-size: medium;
+            margin-bottom: 0.4 rem;
+            color: #647B4E;
+
+        }
+
+        .venues-text h2 {
+            font-family: "F37 Caslon", serif;
+            font-size: 100px;
+            line-height: 92%;
+        }
+
+        .venues-text p {
+            color: #1A4122;
+            text-align: center;
+        }
+
+        .yt-video {
+            min-height: 600px;
+            max-height: 100%;
+            width: 100%;
+
+        }
+
+        .yt-video ::before {
+            content: url(https://www.youtube.com/embed/7gPP9hsV4a0?enablejsapi=1&autoplay=0&cc_load_policy=0&iv_load_policy=1&loop=0&modestbranding=1&fs=1&playsinline=0&controls=1&color=red&cc_lang_pref=&rel=0&autohide=2&theme=dark&);
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+
+        .play-icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-size: 150px;
+            color: #fff;
+
+        }
+
+        .client {
+            background-color: #1A4122;
+            color: #FFF;
+        }
+
+        .client h2 {
+            color: white;
+
+        }
+
+        .client p {
+            color: white;
+        }
+
+        h5 {
+            font-size: 25px;
+            font-family: Futura PT;
+        }
+
+        .slider-text {
+            margin-right: 300px;
+        }
+    </style>
